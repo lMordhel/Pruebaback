@@ -1,0 +1,16 @@
+# Variables de entorno para el Frontend en Vercel
+# Configura estas en tu panel de Vercel
+
+# URL del backend (reemplaza con tu URL de Railway cuando esté lista)
+REACT_APP_API_URL=https://tu-proyecto.railway.app
+# o si usas Next.js:
+NEXT_PUBLIC_API_URL=https://tu-proyecto.railway.app
+
+# Stripe (clave pública - puede ser la misma que en el backend)
+REACT_APP_STRIPE_PUBLIC_KEY=pk_test_tu_clave_publica_stripe
+# o si usas Next.js:
+NEXT_PUBLIC_STRIPE_PUBLIC_KEY=pk_test_tu_clave_publica_stripe
+
+# URLs de éxito y cancelación
+REACT_APP_SUCCESS_URL=https://florerifront.vercel.app/success
+REACT_APP_CANCEL_URL=https://florerifront.vercel.app/cancel

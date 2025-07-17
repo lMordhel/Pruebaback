@@ -1,0 +1,22 @@
+# Variables de entorno para Railway
+# Configura estas variables en tu panel de Railway
+
+# Base de datos (Railway las configura automáticamente si tienes PostgreSQL)
+DATABASE_URL=postgresql://usuario:password@host:puerto/database
+DATABASE_USERNAME=tu_usuario_db
+DATABASE_PASSWORD=tu_password_db
+DATABASE_DRIVER=org.postgresql.Driver
+DATABASE_PLATFORM=org.hibernate.dialect.PostgreSQLDialect
+
+# JWT Secret (genera uno seguro)
+JWT_SECRET=tu_jwt_secret_muy_seguro_de_al_menos_32_caracteres
+
+# Stripe (usa tus claves reales)
+STRIPE_SECRET_KEY=sk_test_tu_clave_secreta_stripe
+STRIPE_PUBLIC_KEY=pk_test_tu_clave_publica_stripe
+
+# Frontend URL (tu dominio de Vercel)
+FRONTEND_URL=https://florerifront.vercel.app
+
+# Puerto (Railway lo configura automáticamente)
+PORT=8080
