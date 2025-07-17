@@ -1,0 +1,7 @@
+# Archivo .env para el frontend (React + Vite)
+# Copiar este contenido en un archivo .env en la raíz del proyecto del frontend
+
+VITE_BACKEND_URL=https://pruebaback-production-29ae.up.railway.app
+VITE_CLERK_PUBLISHABLE_KEY=pk_test_tu_clerk_key_aqui
+
+# Después hacer push a main para que Vercel lo detecte automáticamente
